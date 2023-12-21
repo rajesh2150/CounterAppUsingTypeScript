@@ -1,6 +1,6 @@
-import {useState} from 'react'
+import React, {useState} from 'react'
 
-const Counter = () => {
+const Counter:React.FC = () => {
     const [count,setCount] = useState<number>(0)
     const handleIncrement=()=>{
       setCount(count + 1)
